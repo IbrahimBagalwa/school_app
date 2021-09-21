@@ -1,3 +1,4 @@
+import Header from "./hearder";
 
 export default function Nav({children}){
 
