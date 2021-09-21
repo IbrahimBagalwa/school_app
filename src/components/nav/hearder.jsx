@@ -7,7 +7,7 @@ function Header() {
 
     return (<>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top title">
-            <div className="container">
+            <div className="container-fluid">
                 <Link className="navbar-brand fst-italic navbar-right mr-5" to="/">NDAHURA HIGTH SCHOOL</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

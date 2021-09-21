@@ -33,6 +33,15 @@ function Footer() {
                             <li><Link to="#" className="text-white">Pedagogie Generale</Link></li> 
                         </ul>
                     </div>
+                    <div className="col-lg-3">
+                        <h4 className="text-white text-uppercase pb-2">Nos Options</h4>
+                        <ul className="list-unstyled">
+                            <li><Link to="#" className="text-white">Technique Sociale</Link></li>
+                            <li><Link to="#" className="text-white">Commerciale Gestion</Link></li>
+                            <li><Link to="#" className="text-white">Mathematique Physique</Link></li>
+                            <li><Link to="#" className="text-white">Pedagogie Generale</Link></li> 
+                        </ul>
+                    </div>
                 </div>
             </div>
             {/* </div> */}
@@ -43,15 +52,15 @@ function Footer() {
                         &copy; Copyright <strong><span>Ndahura Hight School</span></strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                        Designed by <a href="https://github.com/IbrahimBagalwa">Ibrahim Bagalwa</a>
+                        Designed by <Link to="https://github.com/IbrahimBagalwa">Ibrahim Bagalwa</Link>
                     </div>
                 </div>
                 <div class="social-links text-center pt-3">
-                    <a href="#" className="twitter"><i className="fa fa-twitter p-2 text-dark "></i></a>
-                    <a href="#" className="facebook"><i className="fa fa-facebook p-2 text-dark"></i></a>
-                    <a href="#" className="instagram"><i className="fa fa-instagram p-2 text-dark"></i></a>
-                    <a href="#" className="google-plus"><i className="fa fa-skype p-2 text-dark"></i></a>
-                    <a href="#" className="linkedin"><i className="fa fa-linkedin p-2 text-dark"></i></a>
+                    <Link to="#" className="twitter"><i className="fa fa-twitter p-2 text-dark "></i></Link>
+                    <Link to="#" className="facebook"><i className="fa fa-facebook p-2 text-dark"></i></Link>
+                    <Link to="#" className="instagram"><i className="fa fa-instagram p-2 text-dark"></i></Link>
+                    <Link to="#" className="google-plus"><i className="fa fa-skype p-2 text-dark"></i></Link>
+                    <Link to="#" className="linkedin"><i className="fa fa-linkedin p-2 text-dark"></i></Link>
                 </div>
             </div>
         </footer>

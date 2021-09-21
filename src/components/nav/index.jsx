@@ -1,7 +1,8 @@
+import React from 'react';
 import Header from "./hearder";
 import Footer from "./footer";
 
-export default function Nav({children}){
+function Nav({children}){
 
     return(
 
@@ -20,3 +21,4 @@ export default function Nav({children}){
         </div>
     );
 }
+export default Nav;
