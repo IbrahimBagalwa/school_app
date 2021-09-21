@@ -1,5 +1,6 @@
 import { unProtectedRoutes, protectedRoutesWithoutNav } from "../helpers/getRoutes";
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Nav from "../components/nav";
 function Routes(){
     return(
         <Router>

@@ -13,7 +13,7 @@ export default function Nav({children}){
                     {children}
                 </div>
                 <div className="nav-footer">
-                    <SideBarMob />
+                    {/* <SideBarMob /> */}
                 </div>
             </div>
         </div>
