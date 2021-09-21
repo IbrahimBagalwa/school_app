@@ -1,9 +1,11 @@
 import React from 'react';
 import './style.home.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
 import img0 from '../../public/asserts/hero.JPG';
 import img1 from '../../public/asserts/home.jpg';
 import img2 from '../../public/asserts/profil.PNG'
-import Slider from 'react-slick';
 import { RightOutlined, LeftOutlined } from "@ant-design/icons";
 
 
@@ -24,7 +26,6 @@ function SampleNextArrow(props) {
         <div className="div-scroll-left">
         <button onClick={onClick}  className="btn-scroll-left">
             <LeftOutlined />
-          
         </button>
     </div>
     );
@@ -47,20 +48,20 @@ export default function Home(){
         img0, img1, img2,
     ]
     return(
-        <div className="home-page content d-block">
-            <Slider {...settings}>
+        <div className="home-page">
+            {/* <Slider {...settings}>
                 {
                     photos.map(photo =>{
                         return(
-                            <div data-aos="fade-up" className="div-img">
-                                <img className="slide" src={photo} alt="1"/>
+                            <div data-aos="fade-up-" className="div-img-">
+                                <img className="slide-" src={photo} alt="1"/>
                             </div>
                         );
                     })
                 }
-            </Slider>
+            </Slider> */}
             <div className="container-fluid">
-                <h2 className="text-upperCase">Nos Options et Sections</h2>
+                <h2 className="text-uppercase">Nos Options et Sections</h2>
             </div>
         </div>
     )
