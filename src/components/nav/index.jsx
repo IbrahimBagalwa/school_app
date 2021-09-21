@@ -1,4 +1,5 @@
 import Header from "./hearder";
+import Footer from "./footer";
 
 export default function Nav({children}){
 
@@ -13,7 +14,7 @@ export default function Nav({children}){
                     {children}
                 </div>
                 <div className="nav-footer">
-                    {/* <SideBarMob /> */}
+                    < Footer />
                 </div>
             </div>
         </div>

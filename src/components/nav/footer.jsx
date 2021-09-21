@@ -1,6 +1,6 @@
-import React from 'react'
-import './footer.component.css'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import './style.css';
+import {Link} from 'react-router-dom';
 function Footer() {
     return (
         <footer className="" id="footer">
