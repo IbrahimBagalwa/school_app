@@ -1,4 +1,5 @@
-import { unProtectedRoutes, protectedRoutesWithoutNav } from "../helpers/getRoutes";
+import React from 'react';
+import { unProtectedRoutes, protectedRoutesWithoutNav, protectedRoutes } from "../helpers/getRoutes";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "../components/nav";
 function Routes(){
@@ -14,16 +15,15 @@ function Routes(){
                     {/* <LoadingComponent /> */}
                     {protectedRoutesWithoutNav.map(route =>(
                         <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
-                            
                             <route.component />
                         )} />
                     ))}
           
-                    {/* <LoadingComponent /> */}
                         <Nav>
                             {protectedRoutes.map(route =>(
                                 <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
-                                        <route.component />
+                                   
+                                    <route.component />
                                 )} />
                             ))}
                         </Nav>
