@@ -4,9 +4,35 @@
     margin-bottom: 3%;
     padding: 10px;
 }
+.div-stat{
+    background-color:rgb(213, 215, 216);
+}
 .arbzr
 {
     background-color: white;
     box-shadow:rgb(216, 216, 216) 0px 0px 6px 0px;
     border-radius: 2%;
+}
+
+.div-project
+{
+    margin-bottom: 3%;
+    padding: 10px;
+
+}
+
+.prjtimb
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: rgb(216, 216, 216) 0px 0px 6px 0px;
+}
+.u-title{
+    font-weight:bold;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center !important;
 }
