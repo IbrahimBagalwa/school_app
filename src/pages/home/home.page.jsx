@@ -212,6 +212,38 @@ export default function Home(){
                     </div>
                 </div>
             </div>
+
+            <div className="container-fluid div-actuality- d-flex">
+                <div className="container">
+                    <span>Nos<strong> Dernieres publications</strong></span>
+                    <p>Retrouvez ci-dessous nos dernières publications</p>
+                    <div className="row justify-content-center">
+                       
+                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <div className="body-card">
+                                <h6 className="card-title fw-bold">COMMUNIQUE DE LA RENTRE SCOLAIRE</h6>
+                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <div className="body-card">
+                                <h6 className="card-title font-weight">PUBLICATION DE RESULTAT</h6>
+                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <div className="body-card">
+                                <h6 className="card-title">RECRUTEMENT DE NOUVEAU ENSEIGNANT</h6>
+                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
