@@ -7,7 +7,8 @@ const routes = [
         path: "/",
         component: Home,
         protected: false,
-        exact: true
+        exact: true,
+        nav: false
     }
 ]
 export default routes;

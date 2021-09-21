@@ -3,15 +3,17 @@ import './style.home.css';
 import img0 from '../../public/asserts/hero.JPG';
 import img1 from '../../public/asserts/home.jpg';
 import img2 from '../../public/asserts/profil.PNG'
-import Slider from 'react-slick';
-import { RightOutlined, LeftOutlined } from "@ant-design/icons";
+// import Slider from 'react-slick';
+// import { RightOutlined, LeftOutlined } from "@ant-design/icons";
 
 
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
             <div className="div-scroll-rigth">
-                <button onClick={onClick}  className="btn-scroll-right"><RightOutlined /></button>
+                <button onClick={onClick}  className="btn-scroll-right">
+                    {/* <RightOutlined /> */}kk
+                </button>
             </div>
     );
   }
@@ -20,7 +22,10 @@ function SampleNextArrow(props) {
     const { onClick } = props;
     return (
         <div className="div-scroll-left">
-        <button onClick={onClick}  className="btn-scroll-left"><LeftOutlined /></button>
+        <button onClick={onClick}  className="btn-scroll-left">
+            {/* <LeftOutlined /> */}
+            lll
+        </button>
     </div>
     );
   }
@@ -42,8 +47,8 @@ export default function Home(){
         img0, img1, img2,
     ]
     return(
-        <div className="home-page">
-            <Slider {...settings}>
+        <div className="home-page content d-block">
+            {/* <Slider {...settings}>
                 {
                     photos.map(photo =>{
                         return(
@@ -53,9 +58,9 @@ export default function Home(){
                         );
                     })
                 }
-            </Slider>
-            <div className="container-fluid pb-2">
-                <h2 className="font-weight-bold text-white text-upperCase pb-2">Nos Options & Sections</h2>
+            </Slider> */}
+            <div className="container-fluid">
+                <h2 className="text-upperCase">Nos Options et Sections</h2>
             </div>
         </div>
     )
