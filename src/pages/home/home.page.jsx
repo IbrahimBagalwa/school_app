@@ -3,8 +3,8 @@ import './style.home.css';
 import img0 from '../../public/asserts/hero.JPG';
 import img1 from '../../public/asserts/home.jpg';
 import img2 from '../../public/asserts/profil.PNG'
-// import Slider from 'react-slick';
-// import { RightOutlined, LeftOutlined } from "@ant-design/icons";
+import Slider from 'react-slick';
+import { RightOutlined, LeftOutlined } from "@ant-design/icons";
 
 
 function SampleNextArrow(props) {
@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
     return (
             <div className="div-scroll-rigth">
                 <button onClick={onClick}  className="btn-scroll-right">
-                    {/* <RightOutlined /> */}kk
+                    <RightOutlined />
                 </button>
             </div>
     );
@@ -23,8 +23,8 @@ function SampleNextArrow(props) {
     return (
         <div className="div-scroll-left">
         <button onClick={onClick}  className="btn-scroll-left">
-            {/* <LeftOutlined /> */}
-            lll
+            <LeftOutlined />
+          
         </button>
     </div>
     );
@@ -48,7 +48,7 @@ export default function Home(){
     ]
     return(
         <div className="home-page content d-block">
-            {/* <Slider {...settings}>
+            <Slider {...settings}>
                 {
                     photos.map(photo =>{
                         return(
@@ -58,7 +58,7 @@ export default function Home(){
                         );
                     })
                 }
-            </Slider> */}
+            </Slider>
             <div className="container-fluid">
                 <h2 className="text-upperCase">Nos Options et Sections</h2>
             </div>
