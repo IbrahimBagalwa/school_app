@@ -1,0 +1,28 @@
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    background-color: black;
+}
+
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url("../../public/asserts/hero.JPG");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+}
+
+
+.hero-info{
+    text-align: center; 
+}

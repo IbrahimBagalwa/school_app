@@ -11,7 +11,7 @@ function Nav({children}){
                 <div className="nav-header">
                     <Header />
                 </div>
-                <div className="content">
+                <div className="main">
                     {children}
                 </div>
                 <div className="nav-footer">

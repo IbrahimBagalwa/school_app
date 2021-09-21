@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Footer() {
     return (
         <footer className="" id="footer">
-            <div className="container-fluid">
+            <div className="container-fluid justify-content-center">
                 <div className="row py-4">
                     <div className="col-lg-3">
                         <h4 className="text-white text-uppercase pb-2">l'entreprise</h4>
@@ -34,7 +34,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col-lg-3">
-                        <h4 className="text-white text-uppercase pb-2">Nos Options</h4>
+                        <h4 className="text-white text-uppercase pb-2">Nous Contactez</h4>
                         <ul className="list-unstyled">
                             <li><Link to="#" className="text-white">Technique Sociale</Link></li>
                             <li><Link to="#" className="text-white">Commerciale Gestion</Link></li>
@@ -52,7 +52,7 @@ function Footer() {
                         &copy; Copyright <strong><span>Ndahura Hight School</span></strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                        Designed by <Link to="https://github.com/IbrahimBagalwa">Ibrahim Bagalwa</Link>
+                        Designed by <Link to="https://github.com/IbrahimBagalwa">Peter Swedi</Link>
                     </div>
                 </div>
                 <div class="social-links text-center pt-3">
