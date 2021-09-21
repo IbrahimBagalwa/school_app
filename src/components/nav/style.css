@@ -2,8 +2,6 @@
     background-color: black;
 }
 #footer {
-    /* color: black; */
-    /* font-size: 14px; */
     background:rgb(0, 0, 0);
 }
 .nav-footer{
@@ -13,6 +11,5 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: flex-end;
-    padding-bottom: 2px; */
+    justify-content: flex-end;*/
 }
