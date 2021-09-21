@@ -48,7 +48,7 @@ export default function Home(){
         img0, img1, img2,
     ]
     return(
-        <div className="home-page">
+        <div className="home">
             {/* <Slider {...settings}>
                 {
                     photos.map(photo =>{
@@ -60,8 +60,21 @@ export default function Home(){
                     })
                 }
             </Slider> */}
-            <div className="container-fluid">
-                <h2 className="text-uppercase">Nos Options et Sections</h2>
+            <div className="container-fluid div-actuality py-2 d-flex">
+                <div className="container">
+                    <span>Nos<strong> Options et Sections</strong></span>
+                    <div className="row justify-content-center">
+                       
+                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <div className="body-card">
+                                <h6 className="card-title">Technique Sociale</h6>
+                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                </div>
             </div>
         </div>
     )
