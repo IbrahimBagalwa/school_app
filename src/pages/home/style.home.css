@@ -3,12 +3,10 @@
     background-color: rgb(244, 251, 255);
     margin-bottom: 3%;
     padding: 10px;
-//    display: flex;
 }
 .arbzr
 {
     background-color: white;
-    // padding: 2%;
     box-shadow:rgb(216, 216, 216) 0px 0px 6px 0px;
     border-radius: 2%;
 }
