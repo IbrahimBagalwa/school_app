@@ -42,3 +42,6 @@ input{
  .button.secondary{
      background-color: #f0f0f0;
  }
+ button{
+    font-size: 1.6rem;
+}

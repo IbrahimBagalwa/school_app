@@ -30,7 +30,7 @@ function SignInScreen(props) {
                              Nouuveau à Ndahuru
                          </li>
                          <li>
-                             <Link to="/register" className="button secondary text-center">Create your uzisha account</Link>
+                             <Link to="/register" className="button secondary text-center">Demander l'incription</Link>
                          </li>
                      </ul>
                  </form>

@@ -30,7 +30,7 @@ function Header() {
                             </li>
                        
                             <li className="nav-item">
-                                <Link to="#" className="nav-link">Se connecter</Link>
+                                <Link to="/login" className="nav-link">Se connecter</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/register" className="nav-link">Demande d'inscription</Link> 
