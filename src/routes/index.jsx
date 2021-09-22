@@ -17,6 +17,7 @@ function Routes(){
                 {
                     protectedRoutesWithoutNav.map(route =>(
                         <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
+                            
                             <route.component />
                         )} />
                     ))
