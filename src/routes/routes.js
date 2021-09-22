@@ -1,6 +1,7 @@
 import Home from "../pages/home/home.page";
 import Valve from "../pages/valve/valve.page";
 import RegisterScreen from "../pages/register/register.page";
+import SignInScreen from "../pages/login/login.page";
 
 
 const routes = [
@@ -24,6 +25,14 @@ const routes = [
         name:'register',
         path: '/register',
         component: RegisterScreen,
+        protected: false,
+        exact: true,
+        nav: true
+    },
+    {
+        name: 'login',
+        path: '/login',
+        component: SignInScreen,
         protected: false,
         exact: true,
         nav: true
