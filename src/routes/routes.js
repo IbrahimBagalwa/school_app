@@ -1,5 +1,6 @@
 import Home from "../pages/home/home.page";
 import Valve from "../pages/valve/valve.page";
+import RegisterScreen from "../pages/register/register.page";
 
 
 const routes = [
@@ -18,6 +19,14 @@ const routes = [
         protected: false,
         exact: true,
         nav: false
+    },
+    {
+        name:'register',
+        path: '/register',
+        component: RegisterScreen,
+        protected: false,
+        exact: true,
+        nav: true
     }
 ]
 export default routes;

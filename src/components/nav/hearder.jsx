@@ -33,7 +33,7 @@ function Header() {
                                 <Link to="#" className="nav-link">Se connecter</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="#" className="nav-link">Demande d'inscription</Link> 
+                                <Link to="/register" className="nav-link">Demande d'inscription</Link> 
                             </li> 
                            
                     </ul>
