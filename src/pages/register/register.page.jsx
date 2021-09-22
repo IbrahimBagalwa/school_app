@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { register } from '../redux/actions/userActions';
+import './style.register.css'
 
 function RegisterScreen(props) {
 
