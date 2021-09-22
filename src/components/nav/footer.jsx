@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 function Footer() {
     return (
         <footer className="" id="footer">
-            <div className="container-fluid justify-content-center">
-                <div className="row py-4">
-                    <div className="col-lg-3">
+            <div className="container">
+                <div className="row py-4 justify-content-center">
+                    <div className="col-lg-4">
                         <h4 className="text-white text-uppercase pb-2">l'entreprise</h4>
                         <ul className="list-unstyled">
                             <li><Link to="#" className="text-light">Qui sommes nous ?</Link></li>
@@ -16,7 +16,7 @@ function Footer() {
                         
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
                         <h4 className="text-white text-uppercase pb-2">Nos Services</h4>
                         <ul className="list-unstyled">
                             <li><Link to="#" className="text-white">Bibliotheque</Link></li>
@@ -24,17 +24,8 @@ function Footer() {
                             <li><Link to="#" className="text-white">comptabilite</Link></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
                         <h4 className="text-white text-uppercase pb-2">Nos Options</h4>
-                        <ul className="list-unstyled">
-                            <li><Link to="#" className="text-white">Technique Sociale</Link></li>
-                            <li><Link to="#" className="text-white">Commerciale Gestion</Link></li>
-                            <li><Link to="#" className="text-white">Mathematique Physique</Link></li>
-                            <li><Link to="#" className="text-white">Pedagogie Generale</Link></li> 
-                        </ul>
-                    </div>
-                    <div className="col-lg-3">
-                        <h4 className="text-white text-uppercase pb-2">Nous Contactez</h4>
                         <ul className="list-unstyled">
                             <li><Link to="#" className="text-white">Technique Sociale</Link></li>
                             <li><Link to="#" className="text-white">Commerciale Gestion</Link></li>
@@ -44,7 +35,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            {/* </div> */}
 
             <div class="container-fluid py-2 bg-light">
                 <div class="mr-lg-auto text-center">
