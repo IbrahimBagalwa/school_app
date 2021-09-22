@@ -36,10 +36,10 @@ function RegisterScreen(props) {
                              <input type="password" id="rePassword" name="rePassword"/>
                          </li>
                          <li>
-                             <button type="submit" className="button primary">Register</button>
+                             <button type="submit" className="button primary">Envoyer</button>
                          </li>
                          <li>
-                             All ready have account? <Link to='/signin'>Sign-in</Link>
+                             All ready have account? <Link to='/login'>Sign-in</Link>
                          </li>
                      </ul>
                  </form>
