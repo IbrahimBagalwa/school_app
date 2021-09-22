@@ -49,17 +49,17 @@ export default function Home(){
     ]
     return(
         <div className="home">
-            {/* <Slider {...settings}>
+            <Slider {...settings}>
                 {
                     photos.map(photo =>{
                         return(
-                            <div data-aos="fade-up-" className="div-img-">
-                                <img className="slide-" src={photo} alt="1"/>
+                            <div data-aos="fade-up" className="div-img">
+                                <img className="slide" src={photo} alt="1"/>
                             </div>
                         );
                     })
                 }
-            </Slider> */}
+            </Slider>
 
             <div className=" d-flex">
                 <div className="container-fluid">
