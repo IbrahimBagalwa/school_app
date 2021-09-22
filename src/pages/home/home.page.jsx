@@ -61,8 +61,8 @@ export default function Home(){
                 }
             </Slider> */}
 
-            <div className="container-fluid div-actuality- d-flex">
-                <div className="container">
+            <div className=" d-flex">
+                <div className="container-fluid">
                     <span>Nos<strong> Options et Sections</strong></span>
                     <p>Nous avons 3 (HTS, CG, HP) options</p>
                     <div className="row justify-content-center">

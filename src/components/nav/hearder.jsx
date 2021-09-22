@@ -6,7 +6,7 @@ function Header() {
 
 
     return (<>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top title">
+        <nav className="navbar navbar-expand-lg navbar-dark fixed-top title">
             <div className="container-fluid">
                 <Link className="navbar-brand fst-italic navbar-right mr-5" to="/">NDAHURA HIGTH SCHOOL</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link" to='/'>Accueil</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item drop-down">
                                 <Link className="nav-link" to='/'>Valve</Link>
                             </li>
                             <li className="nav-item">
@@ -30,10 +30,10 @@ function Header() {
                             </li>
                        
                             <li className="nav-item">
-                                <Link to="#" className="nav-link">Créer un compte</Link>
+                                <Link to="#" className="nav-link">Se connecter</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="#" className="nav-link">Se connecter</Link> 
+                                <Link to="#" className="nav-link">Demande d'inscription</Link> 
                             </li> 
                            
                     </ul>
