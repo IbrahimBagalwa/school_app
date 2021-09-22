@@ -27,7 +27,7 @@ function SignInScreen(props) {
                              <button type="submit" className="button primary">SignIn</button>
                          </li>
                          <li>
-                             New to uzisha
+                             Nouuveau à Ndahuru
                          </li>
                          <li>
                              <Link to="/register" className="button secondary text-center">Create your uzisha account</Link>
