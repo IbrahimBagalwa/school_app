@@ -38,12 +38,11 @@
 }
 .div-img
 {
-    width: 1150px;
+    width: 100%;
     max-height: 400px;
     text-align: center;
     display: flex;
     align-items: center;
-    // overflow: hidden;
     margin: auto;
 }
 .div-caroussel
@@ -78,7 +77,6 @@
 {
     position: absolute;
     z-index: 9;
-    // margin-left: 1105px;
     margin-left: 98%;
     margin-top: -200px;
     background-color: white;
@@ -100,7 +98,7 @@
     height: 30px;
     border-radius: 50%;
 }
-.home
+/* .home
 {
     padding-bottom: 80px;
-}
+} */
