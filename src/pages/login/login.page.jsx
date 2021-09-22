@@ -27,7 +27,7 @@ function SignInScreen(props) {
                              <button type="submit" className="button primary">SignIn</button>
                          </li>
                          <li>
-                             Nouuveau à Ndahuru
+                             Nouveau à Ndahuru
                          </li>
                          <li>
                              <Link to="/register" className="button secondary text-center">Demander l'incription</Link>
