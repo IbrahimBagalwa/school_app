@@ -60,8 +60,8 @@ function RegisterScreen(props) {
                 </select>
             </div>
             <div className="newUserItem">
-                <label htmlFor="name">Full Name</label>
-                <input type="text" placeholder="Services" onChange = {(e)=>setFullName(e.target.value)} />
+                <label htmlFor="name">Nom Complet du tutaire</label>
+                <input type="text" placeholder="Peter Swedi Wasolela" />
             </div>
             <div className="newUserItem">
                 <label htmlFor="email">Email</label>
