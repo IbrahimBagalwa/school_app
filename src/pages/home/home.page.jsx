@@ -3,9 +3,13 @@ import './style.home.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
-import img0 from '../../public/asserts/hero.JPG';
-import img1 from '../../public/asserts/home.jpg';
-import img2 from '../../public/asserts/profil.PNG'
+import img0 from '../../public/asserts/hero.jpg';
+import img1 from '../../public/asserts/home.jpeg';
+import img2 from '../../public/asserts/profil.jpg';
+import img3 from '../../public/asserts/im2.jpg';
+import tf1 from '../../public/asserts/im3.jpg';
+import tf2 from '../../public/asserts/im4.jpg';
+import tf3 from '../../public/asserts/om3.jpg';
 import { RightOutlined, LeftOutlined } from "@ant-design/icons";
 
 
@@ -45,7 +49,7 @@ export default function Home(){
         className: "div-caroussel"
     }
     const photos = [
-        img0, img1, img2,
+        img0, img1, img2,img3
     ]
     return(
         <div className="home">
@@ -68,21 +72,21 @@ export default function Home(){
                     <div className="row justify-content-center">
                        
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf1} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title fw-bold">Technique Sociale</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf2} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title font-weight">Pedagogie Genarale</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title">Math Physique</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
@@ -163,7 +167,7 @@ export default function Home(){
                     <div className="row justify-content-center">
                        
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title fw-bold">Peter SWEDI</h6>
                                 <p className="card-text">Enseignat</p>
@@ -177,7 +181,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={img3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title">Elie MWABULA</h6>
                                 <p className="card-text">Enseignant</p>
@@ -220,21 +224,21 @@ export default function Home(){
                     <div className="row justify-content-center">
                        
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title fw-bold">COMMUNIQUE DE LA RENTRE SCOLAIRE</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={img2} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title font-weight">PUBLICATION DE RESULTAT</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
+                            <img src={tf2} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title">RECRUTEMENT DE NOUVEAU ENSEIGNANT</h6>
                                 <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>

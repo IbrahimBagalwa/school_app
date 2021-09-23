@@ -46,20 +46,20 @@ export default function GrilleDetail() {
     const userData =[
         
         { id: 1, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'62,72%', mension: 'S'},
-        { id: 2, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
-        { id: 3, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'52,72%', mension: 'S'},
+        { id: 2, nom: 'Jean', postnom:'Chiba',prenom: 'kaka', pourcentage:'-%', mension: 'AA'},
+        { id: 3, nom: 'Kalume', postnom: 'Jack',prenom: 'kevin', pourcentage:'52,72%', mension: 'S'},
         { id: 4, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
-        { id: 5, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
+        { id: 5, nom: 'Olivier', postnom: 'Wasolela',prenom: 'Ibrahim', pourcentage:'78,82%', mension: 'D'},
         { id: 6, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'62,72%', mension: 'S'},
-        { id: 7, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 7, nom: 'yve', postnom: 'Wasolela',prenom: 'umeme', pourcentage:'-%', mension: 'AA'},
         { id: 8, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
-        { id: 9, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
+        { id: 9, nom: 'Ombeni', postnom: 'Wasolela',prenom: 'Elisha', pourcentage:'78,82%', mension: 'D'},
         { id: 10, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
-        { id: 11, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 11, nom: 'Riva', postnom: 'Wasolela',prenom: 'Kanna', pourcentage:'-%', mension: 'AA'},
         { id: 12, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
-        { id: 13, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 13, nom: 'Elie', postnom: 'Mwabula',prenom: 'Elia', pourcentage:'-%', mension: 'AA'},
         { id: 14, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
-        { id: 15, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
+        { id: 15, nom: 'David', postnom: 'Maene',prenom: 'Darone', pourcentage:'67%', mension: 'S'},
         { id: 16, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
         
     ]
