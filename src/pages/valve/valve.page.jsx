@@ -4,9 +4,10 @@ import {DataGrid}  from '@material-ui/data-grid';
 import Avatar from '@material-ui/core/Avatar';
 // import { Tag } from 'antd';
 import InputBase from '@material-ui/core/InputBase';
+import { useHistory } from 'react-router-dom';
 
 export default function Valve() {
-   
+   const history = useHistory();
 
     // const columns = [
     // { field: 'id', headerName: 'ID', width: 120 },
@@ -134,7 +135,7 @@ export default function Valve() {
                 </div>
             </div>
 
-            <div className="userList py-2 text-center">
+            <div className="userList py-5 text-center">
                 <div className="dataGrid">
                 <DataGrid
                     rows={userData}
@@ -144,7 +145,7 @@ export default function Valve() {
                     autoHeight={true}
                     checkboxSelection
                     // loading={loading}
-                    // onRowClick={(index, _) => history.push(`/user/${index.row.id}`)}
+                    onRowClick={(index, _) => history.push(`/grille-detail/${index.row.id}`)}
                 />
             </div>
         </div>
