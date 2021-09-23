@@ -2,6 +2,7 @@ import Home from "../pages/home/home.page";
 import Valve from "../pages/valve/valve.page";
 import RegisterScreen from "../pages/register/register.page";
 import SignInScreen from "../pages/login/login.page";
+import GrilleDetail from "../pages/valve/grille.detail";
 
 
 const routes = [
@@ -24,7 +25,7 @@ const routes = [
     {
         name: 'Grille detail',
         path: "/grille-detail/:classId",
-        component: Valve,
+        component:GrilleDetail,
         protected: false,
         exact: true,
         nav: false
