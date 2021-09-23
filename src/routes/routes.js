@@ -22,6 +22,14 @@ const routes = [
         nav: false
     },
     {
+        name: 'Grille detail',
+        path: "/grille-detail/:classId",
+        component: Valve,
+        protected: false,
+        exact: true,
+        nav: false
+    },
+    {
         name:'register',
         path: '/register',
         component: RegisterScreen,

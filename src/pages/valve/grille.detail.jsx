@@ -6,7 +6,7 @@ import Avatar from '@material-ui/core/Avatar';
 import InputBase from '@material-ui/core/InputBase';
 import { useHistory } from 'react-router-dom';
 
-export default function Valve() {
+export default function GrilleDetail() {
    const history = useHistory();
 
     const columns = [
