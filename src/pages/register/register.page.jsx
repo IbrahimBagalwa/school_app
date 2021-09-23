@@ -7,7 +7,7 @@ function RegisterScreen(props) {
     return  (
         <div className="newUser py-2 justify-content-center">
             <h1 className="newUserTitle text-center font-weight-bold py-2">Demande d'inscription</h1>
-            <p>
+            <p className="text-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cupiditate totam doloremque, 
                 aperiam consequuntur nesciunt delectus ipsa inventore architecto tenetur placeat sequi, 
                 ab accusantium minus voluptate quibusdam quia, rem vero? Soluta dolores 
