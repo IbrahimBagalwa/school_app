@@ -45,9 +45,6 @@ input{
  button{
     font-size: 1.6rem;
 }
-.newUser{
-    flex: 4;
-}
 
 .newUserForm{
   display: flex;
