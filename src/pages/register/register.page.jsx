@@ -38,7 +38,7 @@ function RegisterScreen(props) {
                     </select>
                 </div>
                 <div className="newUserItem">
-                    <label htmlFor="date">Date Naissance</label>
+                    <label htmlFor="date">Date Naissance <span className="text">*</span></label>
                     <input type="text" placeholder="11/05/2019"/>
                 </div>
                 <div className="newUserItem">
