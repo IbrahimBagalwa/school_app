@@ -9,74 +9,17 @@ import { useHistory } from 'react-router-dom';
 export default function Valve() {
    const history = useHistory();
 
-    // const columns = [
-    // { field: 'id', headerName: 'ID', width: 120 },
-    // {
-    //     field: 'lastName',
-    //     headerName: 'User',
-    //     width: 280,
-    //     renderCell: (params)=>{
-    //         return(
-    //             <div className="userListUser">
-    //                 <Avatar className="avatar-userList" children={<img src={`${url}/resource/${params.row.avatar}`} alt={params.row.fsname} className="avatar"/>} />  {params.row.fsname} { params.row.lsname }
-    //             </div>
-    //         )
-    //     }
-    // },
-    // {
-    //     field: 'id_',
-    //     headerName: 'Matricule',
-    //     width: 180,
-    
-    // },
-    // {
-    //     field: 'phone',
-    //     headerName: 'Phone',
-    //     width: 200,
-    
-    // },
-    // {
-    //     field: 'solde',
-    //     headerName: 'Solde',
-    //     width: 200,
-    //     renderCell: (params) =>{
-    //     return(
-    //         <div> {params.row.solde}FC </div>
-    //     )
-    //     }
-    // },
-    // {
-    //     field: 'role',
-    //     headerName: 'Role',
-    //     width: 200,
-    //     renderCell: (params) =>{
-    //     return(
-    //         <div> {params.row.role === 0 ? "Agent" : params.row.role === 1 ? "Admin" : params.row.role === 2 ? "Chauffeur" : "Others"}</div>
-    //     )
-    //     }
-    //     // editable: true,
-    // },
-    // {
-    //     field: 'datastatus',
-    //     headerName: 'Etat',
-    //     width: 180,
-    //     renderCell: (params)=>{
-    //         return (
-    //         <div>{ params.row.datastatus === 1 ? <Tag color='success'>Activé</Tag> : params.row.datastatus === 0 ? <Tag color='red'>Non Activé</Tag>  : null }</div>
-        
-    //         )
-    //     }
-    // },
-    
-    // ];
-    
-    
     const columns = [
         { field: 'id', headerName: 'ID', width: 110 },
         {
           field: 'action',
           headerName: 'Action',
           width: 150,
+        //   renderCell: (params)=>{
+        //     return (
+        //         <div>{ params.row.action === <Tag color='success'>Voir la grille</Tag>}</div>
+            
+        //     )}
         },
         {
           field: 'promotion',
