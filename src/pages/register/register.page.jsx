@@ -42,7 +42,7 @@ function RegisterScreen(props) {
                     <input type="text" placeholder="11/05/2019"/>
                 </div>
                 <div className="newUserItem">
-                    <label>Etat Civil</label>
+                    <label>Etat Civil <span className="text-danger">*</span></label>
                     <select className="newUserSelect" name="etatCivil" id="etatCivil">
                         <option value="1">Marié(e)</option>
                         <option value="2">Célibataire</option>
