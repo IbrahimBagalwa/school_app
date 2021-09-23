@@ -1,4 +1,14 @@
-.hero{
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: black;
+    margin-bottom:10px;
+}
+.hero-detail{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -9,7 +19,6 @@
     margin-bottom:10px;
 }
 
-
 .hero::before{
     content: '';
     position: absolute;
@@ -17,14 +26,31 @@
     bottom: 0px;
     right: 0px;
     left: 0px;
-    background-image: url("../../public/asserts/im3.jpg");
+    background-image: url("../../public/asserts/om3.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+}
+.hero-detail::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url("../../public/asserts/im2.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.25;
 }
 
 
+
 .hero-info{
+    text-align: center;
+    
+}
+.hero-info-detail{
     text-align: center;
     
 }
