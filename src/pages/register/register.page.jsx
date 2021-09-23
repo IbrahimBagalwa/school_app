@@ -78,7 +78,7 @@ function RegisterScreen(props) {
                     <input type="email" placeholder="tutaire@gmail.com" />
                 </div>
                 <div className="newUserItem">
-                    <label htmlFor="phone">Phone tutaire</label>
+                    <label htmlFor="phone">Phone tutaire <span className="tex-danger">*</span></label>
                     <input type="tel" placeholder="+243 971 004 914"/>
                 </div>
                 <div className="newUserItem">
