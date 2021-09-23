@@ -13,7 +13,7 @@ function SignInScreen(props) {
                          </li>
                          <li>
                              <label htmlFor="email">
-                                 Email & Phone
+                                 Email ou Phone
                              </label>
                              <input type="email" name="email" id="email" />
                          </li>
