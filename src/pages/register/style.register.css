@@ -45,7 +45,10 @@ input{
  button{
     font-size: 1.6rem;
 }
-
+.newUser{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .newUserForm{
   display: flex;
   flex-wrap: wrap;  
