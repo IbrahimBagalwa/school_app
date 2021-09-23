@@ -45,13 +45,22 @@ export default function Valve() {
       ];
     const userData =[
         
-        { id: 1, action: 'Voir la grille' ,promotion: '6 H.T.S',session: 'Premiere session', annee:'2019-2020',distinction: '0 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 2, action: 'Voir la grille' ,promotion: '5 H.T.S',session: 'Premiere session', annee:'2019-2020',distinction: '0 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 3, action: 'Voir la grille' ,promotion: '4 H.T.S',session: 'Premiere session', annee:'2019-2020',distinction: '0 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 4, action: 'Voir la grille' ,promotion: '3 M.P',session: 'Premiere session', annee:'2019-2020',distinction: '2 sur 30 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 5, action: 'Voir la grille' ,promotion: '5 H.P',session: 'Premiere session', annee:'2019-2020',distinction: '4 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 6, action: 'Voir la grille' ,promotion: '2 C.O',session: 'Premiere session', annee:'2019-2020',distinction: '5 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
-        { id: 7, action: 'Voir la grille' ,promotion: '1 C.O',session: 'Premiere session', annee:'2019-2020',distinction: '0 sur 20 (0,0%)', satisfaction: '15 sur 20 (85%)', echoue: '5 sur 20 (15%)', datepublication:'2019-2020' },
+        { id: 1, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'62,72%', mension: 'S'},
+        { id: 2, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 3, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'52,72%', mension: 'S'},
+        { id: 4, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
+        { id: 5, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
+        { id: 6, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'62,72%', mension: 'S'},
+        { id: 7, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 8, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 9, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
+        { id: 10, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'78,82%', mension: 'D'},
+        { id: 11, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 12, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 13, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
+        { id: 14, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
+        { id: 15, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'67%', mension: 'S'},
+        { id: 16, nom: 'Swedi', postnom: 'Wasolela',prenom: 'Peter', pourcentage:'-%', mension: 'AA'},
         
     ]
 
