@@ -31,7 +31,7 @@ function RegisterScreen(props) {
                     <input type="email" placeholder="Email"/>
                 </div>
                 <div className="newUserItem">
-                    <label>Sexe <span className="te">*</span></label>
+                    <label>Sexe <span className="text-danger">*</span></label>
                     <select className="newUserSelect" name="sexe" id="sexe">
                         <option value="1">Masculin</option>
                         <option value="2">Feminin</option>
