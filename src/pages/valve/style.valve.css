@@ -28,3 +28,11 @@
     text-align: center;
     
 }
+.userList{
+    flex: 4;  
+    padding: 20px;
+  }
+.dataGrid{
+    border-radius: 3px;
+    border:1px red solid;
+}

@@ -71,7 +71,7 @@ export default function Valve() {
     
     
     const columns = [
-        { field: 'id', headerName: 'ID', width: 120 },
+        { field: 'id', headerName: 'ID', width: 110 },
         {
           field: 'action',
           headerName: 'Action',
@@ -111,7 +111,7 @@ export default function Valve() {
         {
             field: 'datepublication',
             headerName: 'Date',
-            width: 160,
+            width: 140,
         },
       ];
     const userData =[
@@ -134,8 +134,8 @@ export default function Valve() {
                 </div>
             </div>
 
-            <div className="userList">
-                <div>
+            <div className="userList py-2 text-center">
+                <div className="dataGrid">
                 <DataGrid
                     rows={userData}
                     columns={columns}
