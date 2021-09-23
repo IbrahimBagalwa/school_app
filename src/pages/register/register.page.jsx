@@ -87,7 +87,7 @@ function RegisterScreen(props) {
                     <input type="text" placeholder="Himbi | Goma" />
                 </div>
             
-                <button type="submit" className="newUserButton">Create</button>
+                <button type="submit" className="newUserButton">Demande d'inscription</button>
 
             </form>
         </div>
