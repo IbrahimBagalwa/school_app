@@ -16,7 +16,7 @@ function RegisterScreen(props) {
             <form action="" enctype="multipart/form-data"className="newUserForm">
                 <div className="newUserItem">
                     <label htmlFor="name">Nom <span className="text-danger">*</span></label>
-                    <input type="text" placeholder="Nom"/>
+                    <input type="text" placeholder="Wasolela"/>
                 </div>
                 <div className="newUserItem">
                     <label htmlFor="postnom">Post Nom <span className="text-danger">*</span></label>
