@@ -70,7 +70,7 @@ function RegisterScreen(props) {
                 <input className="avatarInput" type="file" placeholder="img.pjg..." accept="image/*"/>
             </div>
                 <div className="newUserItem">
-                    <label htmlFor="nomCompletTutaire">Nom Complet du tutaire</label>
+                    <label htmlFor="nomCompletTutaire">Nom Complet du tutaire <span className="text-danger">*</span></label>
                     <input type="text" placeholder="Peter Swedi Wasolela" />
                 </div>
                 <div className="newUserItem">
