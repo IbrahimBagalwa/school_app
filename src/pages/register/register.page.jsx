@@ -19,7 +19,7 @@ function RegisterScreen(props) {
                     <input type="text" placeholder="Nom"/>
                 </div>
                 <div className="newUserItem">
-                    <label htmlFor="postnom">Post Nom</label>
+                    <label htmlFor="postnom">Post Nom <span className="text-danger">*</span></label>
                     <input type="text" placeholder="Post nom"/>
                 </div>
                 <div className="newUserItem">
