@@ -17,7 +17,12 @@ function RegisterScreen(props) {
                         </label>
                         <input type="name" name="name" id="name" />
                     </li>
-                    
+                    <li>
+                        <label htmlFor="postnom">
+                            Post Nom
+                        </label>
+                        <input type="name" name="name" id="postnom" />
+                    </li>
                     <li>
                         <label htmlFor="email">
                             Email
