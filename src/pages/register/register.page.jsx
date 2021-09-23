@@ -35,6 +35,7 @@ function RegisterScreen(props) {
                     <select className="newUserSelect" name="sexe" id="sexe">
                         <option value="1">Masculin</option>
                         <option value="2">Feminin</option>
+                        <option value="2">Autres</option>
                     </select>
                 </div>
                 <div className="newUserItem">
