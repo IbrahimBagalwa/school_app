@@ -14,7 +14,7 @@ export default function GrilleDetail() {
         {
           field: 'nom',
           headerName: 'Nom',
-          width: 200,
+          width: 400,
         //   renderCell: (params)=>{
         //     return (
         //         <div>{ params.row.action === <Tag color='success'>Voir la grille</Tag>}</div>
@@ -24,23 +24,23 @@ export default function GrilleDetail() {
         {
           field: 'postnom',
           headerName: 'Post-Nom',
-          width: 200,
+          width: 350,
         },
         {
           field: 'prenom',
           headerName: 'Prenom',
-          width: 200,
+          width: 300,
           editable: true,
         },
         {
           field: 'pourcentage',
           headerName: 'Pourcentage',
-          width: 160,
+          width: 250,
         },
         {
             field: 'mension',
             headerName: 'Mension',
-            width: 180,
+            width: 250,
         },
       ];
     const userData =[
