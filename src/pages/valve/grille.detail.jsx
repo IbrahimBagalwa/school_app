@@ -66,8 +66,8 @@ export default function GrilleDetail() {
 
     return (
         <>
-            <div className="hero">
-                <div className="hero-info">
+            <div className="hero-detail">
+                <div className="hero-info-detail">
                     <h3 className="font-weight-bold text-white text-center">NDAHURA-GOMA, Résultats scolaire</h3>
                 </div>
             </div>
