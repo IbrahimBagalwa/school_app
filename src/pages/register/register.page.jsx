@@ -21,12 +21,33 @@ function RegisterScreen(props) {
                 <input type="text" placeholder="Prenom"/>
             </div>
             <div className="newUserItem">
+                <label htmlFor="email">Email</label>
+                <input type="email" placeholder="Email"/>
+            </div>
+            <div className="newUserItem">
                 <label>Sexe</label>
                 <select className="newUserSelect" name="sexe" id="sexe">
                     <option value="1">Masculin</option>
                     <option value="2">Feminin</option>
                 </select>
             </div>
+            <div className="newUserItem">
+                <label htmlFor="date">Date Naissance</label>
+                <input type="text" placeholder="11/05/2019"/>
+            </div>
+            <div className="newUserItem">
+                <label>Etat Civil</label>
+                <select className="newUserSelect" name="etatCivil" id="etatCivil">
+                    <option value="1">Marié(e)</option>
+                    <option value="2">Célibataire</option>
+                    <option value="3">Divorcé(e)</option>
+                    <option value="2">Veuf(ve)</option>
+                </select>
+            </div>
+            <div className="newUserItem">
+               <label htmlFor="avatar">Avatar</label>
+               <input className="avatarInput" type="file" placeholder="img.pjg..." accept="image/*"/>
+           </div>
             <div className="newUserItem">
                 <label htmlFor="name">Full Name</label>
                 <input type="text" placeholder="Services" onChange = {(e)=>setFullName(e.target.value)} />
