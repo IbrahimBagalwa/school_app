@@ -51,11 +51,11 @@ function RegisterScreen(props) {
                     </select>
                 </div>
                 <div className="newUserItem">
-                <label htmlFor="avatar">Avatar</label>
+                <label htmlFor="avatar">Avatar <span className="text-danger">*</span></label>
                 <input className="avatarInput" type="file" placeholder="img.pjg..." accept="image/*"/>
             </div>
             <div className="newUserItem">
-                    <label>Classe</label>
+                    <label>Classe <span className="text-danger">*</span></label>
                     <select className="newUserSelect" name="idClass" id="idClass">
                         <option value="1">1ere C.O</option>
                         <option value="2">2eme C.O</option>
