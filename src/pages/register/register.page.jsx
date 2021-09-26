@@ -68,7 +68,7 @@ function RegisterScreen(props) {
                     </select>
                 </div>
                 <div className="newUserItem">
-                <label htmlFor="avatar">Copier du diplome de la classe Precedente <span className="text-danger">*</span></label>
+                <label htmlFor="avatar">Photocopie du bulletin de la promotion montantante <span className="text-danger">*</span></label>
                 <input className="avatarInput" type="file" placeholder="img.pjg..." accept="image/*"/>
             </div>
                 <div className="newUserItem">
