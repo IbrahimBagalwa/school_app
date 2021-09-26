@@ -4,6 +4,7 @@ import RegisterScreen from "../pages/register/register.page";
 import SignInScreen from "../pages/login/login.page";
 import GrilleDetail from "../pages/valve/grille.detail";
 import Contact from "../pages/contact/contact";
+import About from "../pages/about/about";
 
 
 const routes = [
@@ -54,6 +55,15 @@ const routes = [
         protected: false,
         exact: true,
         nav: false
+    },
+    {
+        name: 'about',
+        path: '/about',
+        component: About,
+        protected: false,
+        exact: true,
+        nav: false
     }
+    
 ]
 export default routes;
