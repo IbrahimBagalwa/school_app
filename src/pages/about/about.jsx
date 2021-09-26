@@ -44,6 +44,11 @@ export default function About() {
                                 <li>A l’Ouest : L’église Arche de l’Alliance </li>
                             </ul>
                         </p>
+                        <p><strong>I.3.3. Domaine d’intervention </strong></p>
+                        <p className="ml-2">
+                            L’Institut NDAHURA est une école qui intervient dans le domaine 
+                            d’enseignement. Il forme des élèves de 1ère année CO jusqu’en 6ème année des humanités. 
+                        </p>
                     </div>
                 </div>
             </div>
