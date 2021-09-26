@@ -3,6 +3,7 @@ import Valve from "../pages/valve/valve.page";
 import RegisterScreen from "../pages/register/register.page";
 import SignInScreen from "../pages/login/login.page";
 import GrilleDetail from "../pages/valve/grille.detail";
+import Contact from "../pages/contact/contact";
 
 
 const routes = [
@@ -45,6 +46,14 @@ const routes = [
         protected: false,
         exact: true,
         nav: true
+    },
+    {
+        name: 'contact-us',
+        path: '/contact',
+        component: Contact,
+        protected: false,
+        exact: true,
+        nav: false
     }
 ]
 export default routes;
