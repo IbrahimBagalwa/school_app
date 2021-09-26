@@ -35,11 +35,11 @@ input{
     border-radius: 0.5rem;
  }
  .button:hover{
-     border: .1rem #408080 solid;
+     border: .1rem #517be6;
      box-shadow: rgb(216, 216, 216) 0px 0px 6px 0px;
  }
  .button.primary{
-     background-color: #408080;
+     background-color: #517be6;
  }
  .button.secondary{
      background-color: #f0f0f0;
