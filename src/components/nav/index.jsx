@@ -7,7 +7,7 @@ function Nav({children}){
 
     return(
     <>
-        <LoadingComponent/>
+        {/* <LoadingComponent/> */}
         <div className="page">
             <div className="nav">
                 <div className="nav-header">
