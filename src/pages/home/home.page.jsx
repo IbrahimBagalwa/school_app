@@ -39,9 +39,19 @@ export default function Home(){
     const settings = {
         dots: false,
         infinite: true,
-        autoplay: true,
         autoplaySpeed: 5000,
         slideToshow: 1,
+        slideToscroll: 1,
+        speed: 500,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        className: "div-caroussel"
+    }
+    const setg = {
+        dots: false,
+        infinite: true,
+        autoplaySpeed: 500,
+        slideToshow: 3,
         slideToscroll: 1,
         speed: 500,
         nextArrow: <SampleNextArrow />,
@@ -66,7 +76,7 @@ export default function Home(){
             </Slider>
 
             <div className=" d-flex">
-                <div className="container-fluid">
+                <div className="container-fluid mt-2">
                     <span>Nos<strong> Options et Sections</strong></span>
                     <p>Nous avons 3 (HTS, CG, HP) options</p>
                     <div className="row justify-content-center">
@@ -165,28 +175,29 @@ export default function Home(){
                     <span>Nos<strong> Enseignants</strong></span>
                     <p>Retrouvez le profil de nos enseignants</p>
                     <div className="row justify-content-center">
-                       
-                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={tf3} className="card-img-top" alt="investir"/>
-                            <div className="body-card">
-                                <h6 className="card-title fw-bold">Peter SWEDI</h6>
-                                <p className="card-text">Enseignat</p>
+                       <Slider {...setg}>
+                            <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                                <img src={tf3} className="card-img-top" alt="investir"/>
+                                <div className="body-card">
+                                    <h6 className="card-title fw-bold">Peter SWEDI</h6>
+                                    <p className="card-text">Enseignat</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img0} className="card-img-top" alt="investir"/>
-                            <div className="body-card">
-                                <h6 className="card-title font-weight">Abraham BAGALWA</h6>
-                                <p className="card-text">Enseignant</p>
+                            <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                                <img src={img0} className="card-img-top" alt="investir"/>
+                                <div className="body-card">
+                                    <h6 className="card-title font-weight">Abraham BAGALWA</h6>
+                                    <p className="card-text">Enseignant</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
-                            <img src={img3} className="card-img-top" alt="investir"/>
-                            <div className="body-card">
-                                <h6 className="card-title">Elie MWABULA</h6>
-                                <p className="card-text">Enseignant</p>
-                            </div>
-                        </div> 
+                            <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
+                                <img src={img3} className="card-img-top" alt="investir"/>
+                                <div className="body-card">
+                                    <h6 className="card-title">Elie MWABULA</h6>
+                                    <p className="card-text">Enseignant</p>
+                                </div>
+                            </div> 
+                       </Slider>
                        
                     </div>
                 </div>

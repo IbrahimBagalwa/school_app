@@ -38,16 +38,17 @@
 }
 .div-img
 {
-    width: 100%;
+    width: 12000%;
     max-height: 400px;
-    text-align: center;
-    display: flex;
+    /* text-align: center; */
+    display: inline-block;
     align-items: center;
     margin: auto;
+    /* border: 4rem red solid; */
 }
 .div-caroussel
 {
-    width: 90%;
+    width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
     margin: auto;
