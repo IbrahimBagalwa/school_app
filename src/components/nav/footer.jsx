@@ -10,7 +10,7 @@ function Footer() {
                         <h4 className="text-white text-uppercase pb-2">l'entreprise</h4>
                         <ul className="list-unstyled">
                             <li><Link to="#" className="text-light">Qui sommes nous ?</Link></li>
-                            <li><Link to="#" className="text-light">Nous contacter</Link></li>
+                            <li><Link to="/contact" className="text-light">Nous contacter</Link></li>
                             <li><Link to="#" className="text-light">Nous recrutons</Link></li>
                         </ul>
                         
