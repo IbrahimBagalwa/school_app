@@ -48,8 +48,8 @@ export default function Contact() {
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <input type="submit" class="button secondary text-center" value="Contactez-nous"/>
+                                    <div class="col-md-12 py-2 mb-1">
+                                        <input type="submit" class="newUserButton" value="Contactez-nous"/>
                                     </div>
                             </div>
                         </div>
