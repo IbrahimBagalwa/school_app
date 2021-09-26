@@ -28,9 +28,21 @@ export default function About() {
                             l’institut acquiert en plus une nouvelle classe de la 6ème année CA. 
                         </p>
                         <p className="ml-2">
-                        De 1993 à nos jours, l’Institut NDAHURA a eu une nouvelle localisation, Dès 
-                        Lors, l’institut devint une école publique et transforma la section commerciale en section scientifique, option, mathématique physique, de 1993 à 1994, l’institut s’organise avec toutes les promotions proprement dites du cycle d’orientation, jus qu’en 6ème math-physique ; de 
-                        1995 à 1996, l’institut obtient une nouvelle section pédagogique sous l’arrêté numéro MINESP/CABIMIN/001/1768/85 du 25 octobre 1995, de 2004 à 2005 une autre section vit jour. 
+                            De 1993 à nos jours, l’Institut NDAHURA a eu une nouvelle localisation, Dès 
+                            Lors, l’institut devint une école publique et transforma la section commerciale en section scientifique, option, mathématique physique, de 1993 à 1994, l’institut s’organise avec toutes les promotions proprement dites du cycle d’orientation, jus qu’en 6ème math-physique ; de 
+                            1995 à 1996, l’institut obtient une nouvelle section pédagogique sous l’arrêté numéro MINESP/CABIMIN/001/1768/85 du 25 octobre 1995, de 2004 à 2005 une autre section vit jour. 
+                        </p>
+                        <p><strong>I.3.2. Présentation Géographique </strong></p>
+                        <p className="ml-2">
+                            L’institut NDAHURA est une école situer en RDC dans la province du NordKivu, ville de Goma, commune de Karisimbi situer : 
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Au Nord : Office de route</li> 
+                                <li>Au Sud : La route Sake </li>
+                                <li>A l’Est : TMK </li>
+                                <li>A l’Ouest : L’église Arche de l’Alliance </li>
+                            </ul>
                         </p>
                     </div>
                 </div>
