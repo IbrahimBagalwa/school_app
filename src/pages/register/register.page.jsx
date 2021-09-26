@@ -7,12 +7,13 @@ function RegisterScreen(props) {
     return  (
         <div className="newUser py-2 justify-content-center">
             <h1 className="newUserTitle text-center font-weight-bold py-2">Demande d'inscription</h1>
-            <p className="text-center">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cupiditate totam doloremque, 
-                aperiam consequuntur nesciunt delectus ipsa inventore architecto tenetur placeat sequi, 
-                ab accusantium minus voluptate quibusdam quia, rem vero? Soluta dolores 
-                consequuntur ex nostrum fugit voluptatum nisi et esse nobis? Ab a facilis quod!
+            <p className="text-center"><strong >CONDITION D'INSCRIPTION</strong></p>
+            <p>1. Présenter une Photocopie de bulletin de la promotion montantante ou son équivalent <br/>
+                2. Se munir de: <br />
+                - Une farde chemise en plastique à tringle;<br />
+                - Attestation de fréquentation de l'Institution d'origine;
             </p>
+            <p>NB: Apres traitement de votre demande si vous admis un email sera envoyer a votre tutaire pour vous en informez</p>
             <form action="" enctype="multipart/form-data"className="newUserForm">
                 <div className="newUserItem">
                     <label htmlFor="name">Nom <span className="text-danger">*</span></label>
