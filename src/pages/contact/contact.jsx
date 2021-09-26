@@ -40,27 +40,22 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="form_message">Message *</label>
-                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
+                            <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message"/>
+                                    </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="col-md-12">
-              <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
-          </div>
-         
         </div>
-
-        </form>
-
-      </div>
-
-    </div>
-
-  </div>
     )
 }
