@@ -175,7 +175,7 @@ export default function Home(){
                     <span>Nos<strong> Enseignants</strong></span>
                     <p>Retrouvez le profil de nos enseignants</p>
                     <div className="row justify-content-center">
-                       <Slider {...setg}>
+                       {/* <Slider {...setg}> */}
                             <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
                                 <img src={tf3} className="card-img-top" alt="investir"/>
                                 <div className="body-card">
@@ -197,7 +197,7 @@ export default function Home(){
                                     <p className="card-text">Enseignant</p>
                                 </div>
                             </div> 
-                       </Slider>
+                       {/* </Slider> */}
                        
                     </div>
                 </div>
