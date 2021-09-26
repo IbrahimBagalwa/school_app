@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from "./hearder";
 import Footer from "./footer";
+import { LoadingComponent } from '../../utils/loading';
 
 function Nav({children}){
 
     return(
-
+    <>
+        <LoadingComponent/>
         <div className="page">
             <div className="nav">
                 <div className="nav-header">
@@ -19,6 +21,7 @@ function Nav({children}){
                 </div>
             </div>
         </div>
+    </>
     );
 }
 export default Nav;
