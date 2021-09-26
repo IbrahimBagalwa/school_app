@@ -249,7 +249,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="container">
-                <span>Nos<strong> Dernieres publications</strong></span>
+                <span>Nos<strong> Partenaires</strong></span>
             </div>
         </div>
     )
