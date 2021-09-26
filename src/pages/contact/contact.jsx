@@ -11,14 +11,14 @@ export default function Contact() {
                             <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="form_name">Firstname *</label>
-                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required." />
+                                            <label for="form_name">Nom <span className="text-danger">*</span></label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Firstname is required." />
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="form_lastname">Lastname *</label>
+                                            <label for="form_lastname">Lastname <span className="text-danger">*</span></label>
                                             <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."/>
                                             <div class="help-block with-errors"></div>
                                         </div>
