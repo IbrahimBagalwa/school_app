@@ -92,14 +92,14 @@ export default function Home(){
                             <img src={tf2} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h4 className="card-title font-weight-bold py-2">Pedagogie Genarale</h4>
-                                <p className="card-text"></p>
+                                <p className="card-text">Former de futures enseignants capable de transmetre leur connaissances acquises.....</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
                             <img src={tf3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
                                 <h6 className="card-title">Math Physique</h6>
-                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                                <p className="card-text">Le choix de cette option se justifie par le souci de former des eleves capables de mener une reflexion scientifique en eff....</p>
                             </div>
                         </div> 
                        
