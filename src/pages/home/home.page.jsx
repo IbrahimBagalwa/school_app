@@ -98,7 +98,7 @@ export default function Home(){
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
                             <img src={tf3} className="card-img-top" alt="investir"/>
                             <div className="body-card">
-                                <h6 className="card-title">Math Physique</h6>
+                                <h4 className="card-title  font-weight-bold py-2">Math Physique</h4>
                                 <p className="card-text">Le choix de cette option se justifie par le souci de former des eleves capables de mener une reflexion scientifique en eff....</p>
                             </div>
                         </div> 
