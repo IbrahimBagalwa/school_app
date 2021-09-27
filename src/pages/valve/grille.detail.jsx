@@ -10,7 +10,7 @@ export default function GrilleDetail() {
    const history = useHistory();
 
     const columns = [
-        // { field: 'id', headerName: 'ID', width: 110 },
+   
         {
           field: 'nom',
           headerName: 'Nom',
