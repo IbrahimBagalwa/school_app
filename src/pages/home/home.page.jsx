@@ -84,15 +84,15 @@ export default function Home(){
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
                             <img src={tf1} className="card-img-top" alt="investir"/>
                             <div className="body-card">
-                                <h6 className="card-title fw-bold">Technique Sociale</h6>
-                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                                <h4 className="card-title font-weight-bold py-2">Technique Sociale</h4>
+                                <p className="card-text">Former des futures assistants social capable d'analyse et d'interpreter les faits et phenomenes....</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
                             <img src={tf2} className="card-img-top" alt="investir"/>
                             <div className="body-card">
-                                <h6 className="card-title font-weight">Pedagogie Genarale</h6>
-                                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus</p>
+                                <h4 className="card-title font-weight-bold py-2">Pedagogie Genarale</h4>
+                                <p className="card-text"></p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12 col-md-4 m-3 mt-4 p-2 arbzr">
@@ -117,7 +117,7 @@ export default function Home(){
                                 <hr/>
                                 {/* <Link> */}
                                 <div className="ml-3 p-2">
-                                    <strong><i className='fa fa-book p-1'></i></strong>
+                                    <strong><i className='fa fa-book p-1'></i>Lecture</strong>
                                     <p>Bien apprendre</p>
                                 </div>
                                 {/* </Link> */}
