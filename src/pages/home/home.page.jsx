@@ -135,8 +135,8 @@ export default function Home(){
                                 <hr/>
                                 {/* <Link> */}
                                 <div className="ml-3 p-2">
-                                    <strong><i className='fa fa-book p-1'></i></strong>
-                                    <p>Bien apprendre</p>
+                                    <strong><i className='fa fa-book p-1'></i>Pratique</strong>
+                                    <p>Bien comprendre</p>
                                 </div>
                                 {/* </Link> */}
                                 <div className="ml-3 p-2">
@@ -153,8 +153,8 @@ export default function Home(){
                                 <hr/>
                                 {/* <Link> */}
                                 <div className="ml-3 p-2">
-                                    <strong><i className='fa fa-book p-1'></i></strong>
-                                    <p>Bien apprendre</p>
+                                    <strong><i className='fa fa-book p-1'></i>Modalite de payement</strong>
+                                    <p>Comment payer</p>
                                 </div>
                                 {/* </Link> */}
                                 <div className="ml-3 p-2">
