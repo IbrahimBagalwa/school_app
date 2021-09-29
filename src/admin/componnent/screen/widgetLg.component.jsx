@@ -32,7 +32,7 @@ export default function WidgetLg(props) {
                 {/* {
                     data.map((user)=>( */}
                     <>
-                        <tr className="widgetLgTr" key={user.id}>
+                        <tr className="widgetLgTr">
                             <td className="widgetLgUser">
                                 image
                                 {/* <Avatar className="avatar-userList" children={<img src={`https://ms-backapp.herokuapp.com/resource/${user.avatar}`}className="avatar"/>} /> {user.fsname} { user.lsname } */}
