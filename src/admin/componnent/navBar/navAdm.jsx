@@ -1,12 +1,12 @@
 import React from 'react';
 import './Navbar.component.css';
 import {NotificationsNone, Language, Settings } from '@material-ui/icons';
-import SideBar from '../sideBar/sideBar.component';
 import { useSelector } from 'react-redux';
 import {CloudImg} from '../../Utils/image';
 import Avatar from '@material-ui/core/Avatar';
 import { Popover } from 'antd';
 import { checkToken } from '../../redux/actions/userAction';
+import SideBar from '../siderBar/siderBar';
 
 
 export default function NavAdmin({children}) {
