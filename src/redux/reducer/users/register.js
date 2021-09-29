@@ -1,4 +1,5 @@
-import { USER_REGISTER_FAIL, USER_REGISTER_REQUEST, USER_REGISTER_SUCCESS } from "../../constants/userConstant";
+import { USER_REGISTER_FAIL, USER_REGISTER_REQUEST, USER_REGISTER_SUCCESS } from "../../constants/user.constants";
+
 
 export default (state, {type, payload}) =>{
     switch (type) {
