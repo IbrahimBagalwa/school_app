@@ -1,5 +1,5 @@
 import React from 'react';
-import { unProtectedRoutes, protectedRoutesWithoutNav, protectedRoutes, unProtectedRoutesWithoutNav } from "../helpers/getRoutes";
+import { unProtectedRoutes, protectedRoutesWithoutNav, protectedRoutes, unProtectedRoutesWithoutNav, unProctedRoutesAdmin } from "../helpers/getRoutes";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "../components/nav";
 
@@ -22,9 +22,16 @@ function Routes(){
                         )} />
                     ))
                 }
-                 {
+                {
                     unProtectedRoutes.map(route =>(
                         <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
+                            <route.component />
+                        )} />
+                    ))
+                }
+                {
+                    unProctedRoutesAdmin.map(route =>(
+                        <Route path={route.path} exact={route.exact} key={route.name} render={()=>(
                             <route.component />
                         )} />
                     ))
