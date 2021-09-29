@@ -4,5 +4,10 @@ export default {
         error: null,
         isAuth: null,
         data:{}
+    },
+    login:{
+        loading: false,
+        data: {},
+        error: null
     }
 }
