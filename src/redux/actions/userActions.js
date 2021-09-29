@@ -35,7 +35,7 @@ export const loginAction = (data) => async(dispatch) =>{
         }
     }
 };
-export const registerAction = (data)=> async (dispatch, history) =>{
+export const actionRegister = (data)=> async (dispatch, history) =>{
     dispatch({
         type: USER_REGISTER_REQUEST
     });
@@ -57,7 +57,13 @@ export const registerAction = (data)=> async (dispatch, history) =>{
               type: USER_REGISTER_FAIL,
               payload: res.data.message
           })
-      }else {
+      }else if(res && res.status === 500){
+          dispatch({
+              type: USER_REGISTER_FAIL,
+              payload: res.data.message
+          })
+      }
+      else {
           dispatch({
               type: USER_REGISTER_FAIL,
               payload: 'Enregistrement Impossible, Veuillez reesayer'

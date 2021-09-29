@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import {Link} from 'react-router-dom';
-import { registerAction } from '../../redux/actions/userActions';
-import './style.register.css'
-
+import { actionRegister, registerAction } from '../../redux/actions/userActions';
+import './style.register.css';
+import {Button} from 'antd';
+import { useSelector } from 'react-redux';
+import { LoadingComponent } from '../../utils/loading';
 function RegisterScreen(props) {
-    const dispatch = useDispatch()
     const [nom, setNom] = useState('');
     const [postnom, setPostNom] = useState('');
     const [prenom, setPrenom] = useState('');
@@ -14,10 +15,12 @@ function RegisterScreen(props) {
     const [age, setAge] = useState('');
     const [etatCivil, setEtatCivil] = useState('');
     const [avatar, setAvatar] = useState('');
-    const [idClass, setClass] = useState('');
+    const [idClass, setClasse] = useState('');
     const [nomCompletTutaire, setNomTut] = useState('');
     const [emailTutaire, setEmailTut] = useState('');
     const [phoneTutaire, setPhoneTut] = useState('');
+    const {loading, error} = useSelector(({users: {register}})=>register);
+    const dispatch = useDispatch();
 
     const onFileChange = (e) =>{
         const file = e.target.files[0];
@@ -33,7 +36,7 @@ function RegisterScreen(props) {
 
     const submitHandler = (e)=>{
         e.preventDefault();
-        registerAction({
+        actionRegister({
             nom,
             postnom,
             prenom,
@@ -51,6 +54,10 @@ function RegisterScreen(props) {
 
     return  (
         <div className="newUser py-2 justify-content-center">
+            {
+                loading && 
+                <LoadingComponent/>
+            }
             <h1 className="newUserTitle text-center font-weight-bold py-2">Demande d'inscription</h1>
             <p className="text-center"><strong >CONDITION D'INSCRIPTION</strong></p>
             <p>1. Présenter une Photocopie de bulletin de la promotion montantante ou son équivalent <br/>
@@ -59,7 +66,11 @@ function RegisterScreen(props) {
                 - Attestation de fréquentation de l'Institution d'origine;
             </p>
             <p>NB: Apres traitement de votre demande si vous admis un email sera envoyer a votre tutaire pour vous en informez</p>
-            <form action="" enctype="multipart/form-data"className="newUserForm">
+            {
+                error &&
+                <div className="div-err">{error}</div>
+            }
+            <form action="" enctype="multipart/form-data"className="newUserForm" onSubmit={submitHandler}>
                 <div className="newUserItem">
                     <label htmlFor="name">Nom <span className="text-danger">*</span></label>
                     <input type="text" placeholder="Wasolela" onChange = {(e)=>setNom(e.target.value)}/>
@@ -78,10 +89,10 @@ function RegisterScreen(props) {
                 </div>
                 <div className="newUserItem">
                     <label>Sexe <span className="text-danger">*</span></label>
-                    <select className="newUserSelect" name="sexe" id="sexe" value={sexe} onChange={(e)=>setSexe(e.target.value)}>
+                    <select className="newUserSelect" name="sexes" id="sexes" value={sexe} onChange={(e)=>{setSexe(e.target.value)}}>
                         <option value="1">Masculin</option>
                         <option value="2">Feminin</option>
-                        <option value="2">Autre</option>
+                        <option value="3">Autre</option>
                     </select>
                 </div>
                 <div className="newUserItem">
@@ -94,7 +105,7 @@ function RegisterScreen(props) {
                         <option value="1">Marié(e)</option>
                         <option value="2">Célibataire</option>
                         <option value="3">Divorcé(e)</option>
-                        <option value="2">Veuf(ve)</option>
+                        <option value="4">Veuf(ve)</option>
                     </select>
                 </div>
                 <div className="newUserItem">
@@ -103,13 +114,13 @@ function RegisterScreen(props) {
             </div>
             <div className="newUserItem">
                     <label>Classe <span className="text-danger">*</span></label>
-                    <select className="newUserSelect" name="idClass" id="idClass">
+                    <select className="newUserSelect" name="idClasse" id="idClasse" value={idClass} onChange={(e)=>{setClasse(e.target.value)}} >
                         <option value="1">1ere C.O</option>
                         <option value="2">2eme C.O</option>
                         <option value="3">3eme H.P</option>
-                        <option value="2">4eme H.P</option>
-                        <option value="3">5eme H.P</option>
-                        <option value="2">6eme H.P</option>
+                        <option value="4">4eme H.P</option>
+                        <option value="5">5eme H.P</option>
+                        <option value="6">6eme H.P</option>
                     </select>
                 </div>
                 <div className="newUserItem">
@@ -133,7 +144,7 @@ function RegisterScreen(props) {
                     <input type="text" placeholder="Himbi | Goma" />
                 </div>
             
-                <button type="submit" className="newUserButton">Demande d'inscription</button>
+                <Button type="primary" loading={loading} htmlType='submit' block className="newUserButton">Demande d'inscription</Button>
 
             </form>
         </div>
