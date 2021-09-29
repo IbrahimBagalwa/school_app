@@ -28,10 +28,6 @@ export default function NavAdmin({children}) {
                         <div className="navbarIconsContainer">
                             <Settings/>
                         </div>
-                        {/* <Popover placement='bottomRight' content={content} title={ <h2> {data.fsname} {data.lsname} </h2> } trigger="click"> */}
-                        {/* <Avatar children={<img src={`https://ms-backapp.herokuapp.com/resource/${data.avatar}`} alt={data.fsname} className="avatar"/>} /> */}
-                            {/* <Avatar alt={data.fsname} children={<CloudImg className="avatar" publicId={data.avatar} />} /> */}
-                        {/* </Popover> */}
                     </div>
                 </div>
                 <SideBar />

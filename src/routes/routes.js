@@ -67,7 +67,7 @@ const routes = [
     },
     {
         name:'admin',
-        path:'/admmin',
+        path:'/admin',
         component:HomeAdmin,
         protected:false,
         exact: true,
