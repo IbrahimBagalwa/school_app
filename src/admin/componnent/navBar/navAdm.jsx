@@ -2,27 +2,13 @@ import React from 'react';
 import './Navbar.component.css';
 import {NotificationsNone, Language, Settings } from '@material-ui/icons';
 import { useSelector } from 'react-redux';
-import {CloudImg} from '../../Utils/image';
 import Avatar from '@material-ui/core/Avatar';
 import { Popover } from 'antd';
-import { checkToken } from '../../redux/actions/userAction';
 import SideBar from '../siderBar/siderBar';
 
 
 export default function NavAdmin({children}) {
-    // const { data } = useSelector(({ users: { currentUser } }) =>currentUser);
-
-    // const disconnect = () =>{
-    //     localStorage.removeItem('auth-token');
-    //     window.location.replace('/login');
-    // }
-    // checkToken()
-    // const content = (
-    //     <div>
-    //       <p>Profile</p>
-    //       <p style={{ cursor: 'pointer' }} onClick={disconnect} >Deconnexion</p>
-    //     </div>
-    //   );
+   
     return (
         <div className="page">
             <div className="Navbar">
