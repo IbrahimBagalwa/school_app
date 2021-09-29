@@ -5,9 +5,10 @@ import { useSelector } from 'react-redux';
 import Avatar from '@material-ui/core/Avatar';
 import { Popover } from 'antd';
 import SideBar from '../siderBar/siderBar';
+import FeatureInfo from '../featureInfo/featureInfo.component';
 
 
-export default function NavAdmin({children}) {
+export default function NavAdm({children}) {
    
     return (
         <div className="page">
@@ -33,6 +34,7 @@ export default function NavAdmin({children}) {
                 <SideBar />
             </div>
             <div className="page-body">
+                <FeatureInfo/>
                 {children}
             </div>
         </div>

@@ -22,3 +22,16 @@ body {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
   }
+  .container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover{
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import { unProtectedRoutes, protectedRoutesWithoutNav, protectedRoutes, unProtectedRoutesWithoutNav, unProctedRoutesAdmin, unProtectedRoutesWithoutNavAdmin } from "../helpers/getRoutes";
+import { unProtectedRoutes, protectedRoutesWithoutNav, protectedRoutes, unProtectedRoutesWithoutNav } from "../helpers/getRoutes";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "../components/nav";
-import NavAdmin from '../admin/componnent/navBar/navAdm';
 
 function Routes(){
     return(
         <Router>
-            <Switch>
+            <Switch> 
+             
                 {
                     protectedRoutes.map(route =>(
                         
@@ -30,13 +30,6 @@ function Routes(){
                         )} />
                     ))
                 }
-                 {
-                    unProctedRoutesAdmin.map(route =>(
-                        <Route path={route.path} exact={route.exact} key={route.name} render={()=>(
-                            <route.component />
-                        )} />
-                    ))
-                }          
                 <Nav>
                     {unProtectedRoutesWithoutNav.map(route =>(
                         <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
@@ -45,15 +38,6 @@ function Routes(){
                         )} />
                     ))}
                 </Nav>
-                <NavAdmin>
-                {
-                    unProtectedRoutesWithoutNavAdmin.map(route =>(
-                        <Route path={route.path} exact={route.exact} key={route.name} render={()=>(
-                            <route.component />
-                        )} />
-                    ))
-                }
-                </NavAdmin>
             </Switch>
         </Router>
     );
