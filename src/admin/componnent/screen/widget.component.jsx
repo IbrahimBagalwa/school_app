@@ -33,7 +33,7 @@ export default function WidgetSm() {
                     data.map((client)=>( */}
 
                     <>
-                        <tr className="widgetLgTr" key={client.id}>
+                        <tr className="widgetLgTr">
                             <td className="widgetLgUser">
                                 {/* <Avatar className="avatar-userList" children={<img src={`https://ms-backapp.herokuapp.com/resource/${client.avatar}`}className="avatar"/>} /> {client.fsname} { client.lsname } */}
                             </td>

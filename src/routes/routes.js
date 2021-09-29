@@ -5,6 +5,7 @@ import SignInScreen from "../pages/login/login.page";
 import GrilleDetail from "../pages/valve/grille.detail";
 import Contact from "../pages/contact/contact";
 import About from "../pages/about/about";
+import HomeAdmin from "../admin/componnent/navBar/home";
 
 
 const routes = [
@@ -63,6 +64,15 @@ const routes = [
         protected: false,
         exact: true,
         nav: false
+    },
+    {
+        name:'admin',
+        path:'/admmin',
+        component:HomeAdmin,
+        protected:false,
+        exact: true,
+        nav: true,
+        navAdm: false
     }
     
 ]
