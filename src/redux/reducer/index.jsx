@@ -1,6 +1,5 @@
 import {combineReducers} from 'redux';
-import users from './user'
-
+import users from './users'
 export default combineReducers({
     users
 })

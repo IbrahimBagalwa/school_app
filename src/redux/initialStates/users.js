@@ -9,5 +9,10 @@ export default {
         loading: false,
         data: {},
         error: null
+    },
+    register:{
+        loading: false,
+        data: {},
+        error: null
     }
 }

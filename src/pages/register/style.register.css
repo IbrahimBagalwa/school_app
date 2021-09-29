@@ -115,3 +115,7 @@ input{
      /* box-shadow:rgb(216, 216, 216) 0px 0px 6px 0px; */
      /* border-radius: .5rem; */
 }
+.div-error{
+    text-align: center;
+    color: rgb(214, 38, 38);
+}
