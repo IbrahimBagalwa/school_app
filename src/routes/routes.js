@@ -6,6 +6,7 @@ import GrilleDetail from "../pages/valve/grille.detail";
 import Contact from "../pages/contact/contact";
 import About from "../pages/about/about";
 import HomeAdmin from "../admin/componnent/navAdm/home";
+import Cours from "../admin/pages/cours";
 
 
 const routes = [
@@ -69,10 +70,10 @@ const routes = [
         name:'admin',
         path:'/admin',
         component:HomeAdmin,
-        protected:false,
+        protected:true,
         exact: true,
         nav:true
-    }
+    },
     
 ]
 export default routes;

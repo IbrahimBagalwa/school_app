@@ -18,52 +18,28 @@ export default function SideBar() {
                                 Home   
                             </li>
                         </Link>
-                        <Link to='#' className= "link"> 
-                            <li className="sidebarListItem">
-                                <Timeline className="sidebarIcon"/>
-                                Revenue   
-                            </li>
-                        </Link>
-                        <Link to='/ventes' className="link">
-                        <li className="sidebarListItem">
-                                <AttachMoney className="sidebarIcon"/>
-                                Transactions   
-                            </li> 
-                        </Link>
-                        {/* <Link to="/transactions" className="link">
-                            <li className="sidebarListItem">
-                                <AttachMoney className="sidebarIcon"/>
-                                Transactions   
-                            </li>   
-                        </Link> */}
                     </ul>
                 </div>
 
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
-                        <Link to="/users" className="link">
-                            <li className="sidebarListItem">
-                                <PermIdentity className="sidebarIcon"/>
-                                Agents   
-                            </li>
-                        </Link>
                         <Link to="/clients" className="link">
                             <li className="sidebarListItem">
                                 <PeopleOutline className="sidebarIcon"/>
-                                Clients  
+                                Eleves  
                             </li>
                         </Link>
-                        <Link to="/products" className="link">
+                        <Link to="/cours" className="link">
                             <li className="sidebarListItem">
                                 <Storefront className="sidebarIcon"/>
-                                Carts  
+                                Cours  
                             </li>
                         </Link>
                         <Link to='#' className="link">
                             <li className="sidebarListItem">
                                 <BarChart className="sidebarIcon"/>
-                                Rapport  
+                                Cotation  
                             </li>   
                         </Link>
                     </ul>

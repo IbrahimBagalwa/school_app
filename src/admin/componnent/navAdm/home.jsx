@@ -1,18 +1,22 @@
 import React from 'react'
-import FeatureInfo from '../featureInfo/featureInfo.component'
-import WidgetSm from '../screen/widget.component'
-import WidgetLg from '../screen/widgetLg.component'
+import { Route, Router, Switch } from 'react-router'
+import { protectedRoutesAdmin, protectedRoutesWithoutNavAdmin, unProtectedRoutesWithoutNavAdmin } from '../../../helpers/getRoutes'
 import NavAdm from './navAdm'
 
 export default function HomeAdmin() {
     return (
-        <NavAdm>
-            <div className="home">
-                <div className="homeWidget">
-                    {/* <WidgetLg/>
-                    <WidgetSm/> */}
-                </div>
-            </div>
-        </NavAdm>
+
+                <NavAdm>
+                    <div className="home">
+                        <div className="homeWidget">
+                            {unProtectedRoutesWithoutNavAdmin.map(route =>(
+                                <Route path={route.path} exact={route.exact} key={route.name} render={() =>(
+                                    
+                                    <route.component />
+                                )} />
+                            ))}
+                        </div>
+                    </div>
+                </NavAdm>
     )
 }

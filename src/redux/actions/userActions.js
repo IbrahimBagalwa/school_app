@@ -52,14 +52,19 @@ export const actionRegister = (data)=> async (dispatch, history) =>{
     } catch (error) {
         console.log(error)
       const res = error.response;
-      if(res && res.status === 400){
+      if(res && res.status === 409){
+          dispatch({
+              type: USER_REGISTER_FAIL,
+              payload: res.data.error
+          })
+      }else if(res && res.status === 400){
           dispatch({
               type: USER_REGISTER_FAIL,
               payload: res.data.message
           })
-      }else if(res && res.status === 500){
+      }else if (res && res.status == 500){
           dispatch({
-              type: USER_REGISTER_FAIL,
+              type:USER_LOGIN_FAIL,
               payload: res.data.message
           })
       }
